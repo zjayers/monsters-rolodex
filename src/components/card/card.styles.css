@@ -3,10 +3,10 @@
   display: flex;
   text-align: center;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: column;
+  flex-direction: column;
   background-color: #95dada;
   border: 1px solid grey;
   border-radius: 20px;
@@ -14,9 +14,9 @@
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-transition: -webkit-transform 0.25s ease-out;
   transition: -webkit-transform 0.25s ease-out;
   transition: transform 0.25s ease-out;
@@ -25,5 +25,5 @@
 
 .card-container:hover {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { CardList } from './components/card-list/card-list.component';
-import { SearchBox } from './components/search-box/search-box.component';
-import { Monster } from './types/data-types';
-import axios from 'axios';
-import './App.css';
+import React, { Component } from "react";
+import { CardList } from "./components/card-list/card-list.component";
+import { SearchBox } from "./components/search-box/search-box.component";
+import { Monster } from "./types/data-types";
+import axios from "axios";
+import "./App.css";
 
 interface Props {}
 interface State {
@@ -17,14 +17,13 @@ class App extends Component<Props, State> {
 
     this.state = {
       monsters: [],
-      searchField: '',
+      searchField: "",
     };
-
   }
 
   async componentDidMount() {
     const result = await axios.get(
-      'https://jsonplaceholder.typicode.com/users'
+      "https://jsonplaceholder.typicode.com/users"
     );
     this.setState({ monsters: result.data });
   }
@@ -33,19 +32,19 @@ class App extends Component<Props, State> {
     this.setState({
       searchField: e.target.value,
     });
-  }
+  };
 
   render() {
     const { monsters, searchField } = this.state;
-    const filteredMonsters = monsters.filter(monster =>
+    const filteredMonsters = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchField)
     );
 
     return (
-      <div className='App'>
+      <div className="App">
         <h1>Monsters Rolodex</h1>
         <SearchBox
-          placeholder='Search Monsters...'
+          placeholder="Search Monsters..."
           handleChange={this.handleChange}
         />
         <CardList monsters={filteredMonsters} />

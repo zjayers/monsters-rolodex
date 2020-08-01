@@ -1,5 +1,5 @@
-import * as React from 'react';
-import './search-box.styles.css';
+import * as React from "react";
+import "./search-box.styles.css";
 
 export interface ISearchBoxProps {
   placeholder: string;
@@ -10,8 +10,8 @@ export function SearchBox({ placeholder, handleChange }: ISearchBoxProps) {
   return (
     <div>
       <input
-        className='search'
-        type='search'
+        className="search"
+        type="search"
         placeholder={placeholder}
         onChange={handleChange}
       />

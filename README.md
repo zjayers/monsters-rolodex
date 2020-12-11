@@ -1,32 +1,21 @@
-<h1 align="center">Welcome to monsters-rolodex 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+# Monsters-Rolodex
+[![GitHub Release](https://img.shields.io/github/release/zjayers/monsters-rolodex.svg?style=flat)]()
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/zjayers/monsters-rolodex.svg?style=flat)]()
+[![Issues](https://img.shields.io/github/issues-raw/zjayers/monsters-rolodex.svg?maxAge=25000)](https://github.com/zjayers/monsters-rolodex/issues)
+[![MIT License](https://img.shields.io/apm/l/atomic-ui.svg?)](https://github.com/zjayers/monsters-rolodex/blob/master/LICENSEs)
 
-### 🏠 [Homepage](https://zjayers.github.io/monsters-rolodex)
+## Description
 
-## Install
+> Work in progress
 
-```sh
-npm install
-```
+## Features
+
+> Work in progress
+
+## Installation
+
+> Work in progress
 
 ## Usage
 
-```sh
-npm run start
-```
-
-## Run tests
-
-```sh
-npm run test
-```
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+> Work in progress

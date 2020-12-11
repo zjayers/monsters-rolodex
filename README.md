@@ -1,8 +1,7 @@
 # Monsters-Rolodex
-[![GitHub Release](https://img.shields.io/github/release/zjayers/monsters-rolodex.svg?style=flat)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/zjayers/monsters-rolodex.svg?style=flat)]()
+[![GitHub Release](https://img.shields.io/github/release/zjayers/monsters-rolodex.svg?style=flat)](https://github.com/zjayers/monsters-rolodex/releases)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/zjayers/monsters-rolodex.svg?style=flat)](https://github.com/zjayers/monsters-rolodex/pulls)
 [![Issues](https://img.shields.io/github/issues-raw/zjayers/monsters-rolodex.svg?maxAge=25000)](https://github.com/zjayers/monsters-rolodex/issues)
-[![MIT License](https://img.shields.io/apm/l/atomic-ui.svg?)](https://github.com/zjayers/monsters-rolodex/blob/master/LICENSEs)
 
 ## Description
 
